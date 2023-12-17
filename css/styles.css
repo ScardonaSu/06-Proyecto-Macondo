@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primario: #D9B70D;
+    --amarilloClaro: #BF8D30;
+    --secundario:#0a3a79 ;
+    --azulClaro: #253C59;
+    --gris: #3B3B3B;
+    --blanco: #fff;
+    --negro: #1f1e1e;
+    --grisClaro: #e1e1e1;
+
+    --separacion: 5rem;
+    
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --fuente-secundaria: 'Lato', sans-serif;
+
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Background01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* .title{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    text-align: center;
+} */
+
+.title{
+    font-size: 80px;
+    color: transparent;
+    background: linear-gradient(to right, var(--primario) 0%, var(--secundario)) 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    
+}
+
+
+.main{
+    background-color: rgba(0,0,0,.6);   
+    
+
+}
+
+.card{
+    background-color:#d1dff3;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secundario);
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--blanco);
+
+    & span{
+        color: var(--blanco);
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    & p{
+        margin: 0;
+    }
+}
+
+.card{
+    height: 640px;
+}
+
+
+
+
+
+
+
+
+

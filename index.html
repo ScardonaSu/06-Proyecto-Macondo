@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Viajando a Macondo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="js/compra.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  
+  <h1 class="title">Viaje a Macondo</h1>
+  
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-4 mb-5">
+          <div class="col-4">
+            <div class="card text-center">
+              <img src="./img/comida.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Eligiendo la comida</h5>
+                <p class="card-text">Día viernes, Hildebrando llega al aeropuerto del dorado, se quiere comprar algo de comer antes del vuelo, ya que hace escala en Medellín en la madrugada, y llegaría en la mañana a Cartagena las opciones que tiene Hildebrando:</p>
+                <button onclick="compra()" type="button" class="btn btn-primary btn-lg ">Comer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card text-center">
+            <img src="./img/maleta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calculando la Maleta</h5>
+              <p class="card-text">Llega a la sala de espera, y revisa su maleta que no cumple con el tamaño de maleta de mano, la aerolínea tiene el tamaño normal para las maletas de mano, 55 cm (alto) x 40 cm (largo) x 20 cm (ancho), y Hildebrando que va a abordar tiene una maleta de 60 cm (alto) x 40 cm (largo)x 20x cm.</p>
+              <button onclick="mediaMaleta()" type="button" class="btn btn-success btn-lg">Calcular Maleta</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card text-center">
+            <img src="./img/wifi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clave Wifi</h5>
+              <p class="card-text">Ahora que Hildebrando se dirige a la ciudad de Medellín, llega a las 2 am, y debe abordar a las 3 am para Macondo, se encuentra con el problema de que el wifi del aeropuerto está fallando, y necesita asegurar su reserva en el hotel para el siguiente día, caminando por el aeropuerto encuentra wifi</p>
+              <button onclick="wifi()" type="button" class="btn btn-info btn-lg">Wifi</button>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="col">
+          <div class="card text-center">
+            <img src="./img/lenguaje.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lengua Macondiana</h5>
+              <p class="card-text">Al llegar a Macondo, se da cuenta que todos hablan diferente, solo hablan con la la vocal i así que todo lo que dirá es con la vocal “i”pedir el taxi. Convertir: "Taxi me puede llevar al hotel mariposas amarillas"</p>
+              <button onclick="lengua()" type="button" class="btn btn-secondary btn-lg">Traduccion</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center">
+            <img src="./img/taxi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Apuesta </h5>
+              <p class="card-text">Cuando llega al hotel, el taxi, le pide que le 300.000 pesos, y el queda sorprendido, asi que empieza a negociar con él, y le dice que, si le gana papBy RiwiBy Riwi el piedra o tijera, le pagara los 300.000, pero si el taxista pierde, no le cobra nada. Solo será una ronda. Si hay empata, no pasa nada.</p>
+              <button onclick="taxi()" type="button" class="btn btn-dark btn-lg">Taxi</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card text-center">
+            <img src="./img/calcular.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Resumen</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button onclick="lengua()" type="button" class="btn btn-danger btn-lg">Resumen del viaje</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+  </div>
+  <!-- End container -->
+
+  <footer>
+    <p> Santiago Cardona Suarez &copy; 2023</p>
+    <p><span>By Riwi</span></p>
+  </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
